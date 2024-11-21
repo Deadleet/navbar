@@ -1,0 +1,50 @@
+.btn {
+  background-color: green;
+  width: 100px; /* La largeur changera avec la même transition */
+  height: 50px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .7s; /* La transition est définie ici */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: darkgreen;
+  width: 300px;
+}
+.centerDiv {
+  position: relative;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstChoice {
+  position: absolute;
+  top: 56%;
+  left: -41px;
+  transform: translate(-50%, -50%);
+}
+.secondChoice {
+  position: absolute;
+  top: 57%;
+  right: -84px;
+  transform: translate(-50%, -50%);
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.img2 {
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+}
